@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="miestilo.css"> <!-- Enlace a la hoja de estilo externa -->
+    <style>
+        /* Estilo interno para el párrafo */
+        p {
+            color: #2c3e50; /* Cambia el color del texto del párrafo */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de la empresa"> <!-- Coloca el logo aquí -->
+        <h1>Bienvenido a Nuestra Empresa</h1> <!-- Título -->
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://evejoyeria.com/" target="_blank">HOME</a></li>
+            <li><a href="https://evejoyeria.com/relojes" target="_blank">RELOJES</a></li>
+            <li><a href="https://evejoyeria.com/contacto" target="_blank">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="mi-division">
+            <p class="centrado-negrita-cursiva">
+                Somos una empresa que se dedica a la venta de relojes de mesa y pared con diseños únicos e
+                innovadores. Utilizamos materia prima de calidad. Elaboramos productos a la medida del
+                cliente.
+            </p>
+            <p>
+                Nos enorgullecemos de ofrecer un excelente servicio al cliente y productos de alta calidad que se adaptan a sus necesidades.
+            </p>
+        </div>
+        <p> <!-- Nuevo párrafo para separar la imagen del texto -->
+            <img src="producto.jpg" alt="Imagen del producto"> <!-- Imagen del producto -->
+        </p>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Nuestra Empresa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
